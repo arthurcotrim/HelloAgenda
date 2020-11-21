@@ -1,0 +1,33 @@
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-up{
+    animation-name: up;
+    animation-duration: 2000ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes rotate-Link{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+
+.finalElements h1:hover{
+    animation-name: rotate-Link;
+    animation-duration: 700ms;
+}
