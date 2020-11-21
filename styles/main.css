@@ -21,7 +21,7 @@ h2 {
     margin-bottom: 2rem;
 }
 .textElements {
-    margin: 2rem auto;
+    margin: 1rem auto;
     height: 0rem;
     text-align: center;    
 }
@@ -32,8 +32,6 @@ h2 {
     color: #DA70D6;
     margin-bottom: 2rem;
 }
-
-
 
 .finalElements img{
     height:10rem;
@@ -47,4 +45,38 @@ h2 {
     border: 2px solid #FFFFF0;
     border-radius: 1.2rem;
     padding: .5rem 1.6rem;
+}
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(16px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-up{
+    animation-name: up;
+    animation-duration: 2000ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes link{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+
+.finalElements h1:hover{
+    animation-name: link;
+    animation-duration: 700ms;
 }
