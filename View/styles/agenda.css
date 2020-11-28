@@ -11,6 +11,11 @@
     font-weight: 700;
 }
 
+.table td{
+    border: 2px solid white;
+    padding: .4rem auto;
+}
+
 .elements, .table {
     margin: 2rem auto;
     height: 0rem;
@@ -42,9 +47,26 @@
     color: #FFF8DC;
     font: 700 1.3rem 'Indie Flower', cursive;
     cursor: pointer;
+    outline:none;
 }
 
 .elements .btn:hover{
     transition: background 2s ease-in-out;
     background: #DA70D6;
+}
+
+.status-Remove{
+    text-decoration: none;
+    background: #FF6347	;
+    padding: 0rem .8rem;
+    border-radius: 1.2rem;
+    color: white;
+}
+
+.status-Done{
+    text-decoration: none;
+    background: #00FF7F	;
+    padding: 0rem .8rem;
+    border-radius: 1.2rem;
+    color: white;
 }
