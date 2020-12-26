@@ -5,7 +5,7 @@
 
 .table th{
     text-align: center;
-    padding: .5rem 3rem;
+    padding: .8rem 3rem;
     color:#FFF8DC;
     background: rgb(216,191,216);
     font-weight: 700;
@@ -13,7 +13,7 @@
 
 .table td{
     border: 2px solid white;
-    padding: .4rem auto;
+    padding: .3 rem 1rem;
 }
 
 .elements, .table {
@@ -34,7 +34,7 @@
     height: 1.6rem;
     margin-top: .3rem;
     outline: none;
-    padding-left: 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .elements .btn{
@@ -61,12 +61,6 @@
     padding: 0rem .8rem;
     border-radius: 1.2rem;
     color: white;
-}
-
-.status-Done{
-    text-decoration: none;
-    background: #00FF7F	;
-    padding: 0rem .8rem;
-    border-radius: 1.2rem;
-    color: white;
+    outline: none;
+    border: none;
 }
